@@ -4,16 +4,6 @@
 {% block content %}
 
 {% if page == 'register' %}
-<h1>Register User</h1>
-
-<form method="POST" action="{% url 'register' %}">
-    {% csrf_token %}
-    {{form.as_p}}
-    <input type="submit" value="Register User" />
-</form>
-
-<p>Already have an account <a href="{% url 'login' %}">Login</a></p>
-
 
 <div class="auth">
     <div class="card">
