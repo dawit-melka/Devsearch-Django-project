@@ -177,7 +177,11 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'from.email.try@gmail.com'
-EMAIL_HOST_PASSWORD = 'jygygcgfpgqivtep'
+EMAIL_HOST_PASSWORD = 'dgqlxanorxsugzhj@'
+
+# server = smtplib.SMTP_SSL('smtp.googlemail.com', 465)
+# server.login(gmail_user, password)
+# server.sendmail(gmail_user, TO, BODY)
 
 
 
