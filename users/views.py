@@ -9,7 +9,6 @@ from .utils import searchProfile, paginateProjects
 
 # Create your views here.
 def loginUser(request):
-    page = 'login'
 
     if request.user.is_authenticated:
         return redirect('profiles')
